@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # client.py - Cliente interativo para o Mini-Chat
 
 import socket
