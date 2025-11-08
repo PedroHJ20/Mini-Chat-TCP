@@ -124,7 +124,7 @@ Sempre use o comando WHO antes de enviar mensagens privadas para:
 
 Exemplo de uso recomendado:
 WHO
-# Resposta: Connected users: joao, maria, pedro
+ Resposta: Connected users: joao, maria, pedro
 
 MSG @joao oi!              # Copiou exatamente como apareceu no WHO
 
