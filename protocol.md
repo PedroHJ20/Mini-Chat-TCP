@@ -75,6 +75,59 @@ Cliente: QUIT
 Servidor: BYE
 Broadcast: User ana left the chat.
 
+
+IMPORTANTE RESSALTAR
+
+Atenção Especial com Mensagens Privadas (DM)
+
+Ao enviar mensagens diretas, é CRÍTICO respeitar a sintaxe exata:
+
+Formato Correto:
+MSG @<apelido_exato> <mensagem>
+
+Regras Importantes:
+
+1. O símbolo @ é obrigatório e deve estar colado ao apelido (sem espaço)
+   - Correto: MSG @joao oi
+   - Errado: MSG @ joao oi (espaço após @)
+   - Errado: MSG joao oi (sem @)
+
+2. O apelido deve ser escrito EXATAMENTE como foi registrado
+   - Correto: MSG @joao oi (se o usuário registrou como "joao")
+   - Errado: MSG @João oi (letra maiúscula diferente)
+   - Errado: MSG @JOAO oi (tudo maiúsculo)
+   - Errado: MSG @Joao oi (capitalização diferente)
+
+3. Deve haver UM ESPAÇO entre o apelido e a mensagem
+   - Correto: MSG @joao oi
+   - Errado: MSG @joaooi (sem espaço)
+
+Exemplos Práticos:
+
+Cenário: João registrou como NICK joao e Maria como NICK maria
+
+CORRETO
+MSG @joao tudo bem?          # Vai funcionar
+MSG @maria oi maria!         # Vai funcionar
+
+ERRADO
+MSG @João tudo bem?          # ERR user_not_found
+MSG @JOAO tudo bem?          # ERR user_not_found  
+MSG @ joao tudo bem?         # Erro de sintaxe
+MSG @joaotudo bem?           # Erro de sintaxe
+
+Dica Pro:
+Sempre use o comando WHO antes de enviar mensagens privadas para:
+- Verificar quem está online
+- Confirmar a grafia exata do apelido
+- Evitar erros de digitação
+
+Exemplo de uso recomendado:
+WHO
+# Resposta: Connected users: joao, maria, pedro
+
+MSG @joao oi!              # Copiou exatamente como apareceu no WHO
+
 Respostas do Servidor
 
 Confirmações (OK)

@@ -1,4 +1,13 @@
 # Mini-Chat-TCP
+
+Grupo : 
+Pedro Henrique Jerônimo Da Silva
+Carlos Henrique da Costa Souza
+Ludmylla Dias de Souza Santos
+MATHEUS VINNYCIUS VASCONCELOS DE SANTANA
+
+
+
 Mini Chat TCP em Python
 
 Sistema de chat multiusuário em tempo real via protocolo TCP/IP.
