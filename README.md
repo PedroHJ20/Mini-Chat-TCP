@@ -305,7 +305,7 @@ BYE
 Informações do Projeto
 
 Autor: Pedro Henrique  
-Instituição: [Sua Instituição]  
+Instituição:UNICAP
 Disciplina: Redes de Computadores  
 Data: Novembro 2025  
 Versão: 1.0  
